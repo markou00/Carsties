@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\Search
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "src\Contracts\Contracts.csproj", "{BD071C10-DC06-4B24-A286-5D678830438A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService", "src\IdentityService\IdentityService.csproj", "{9C048BEA-0CA5-409A-9956-7743F77DA0B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{BD071C10-DC06-4B24-A286-5D678830438A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD071C10-DC06-4B24-A286-5D678830438A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD071C10-DC06-4B24-A286-5D678830438A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C048BEA-0CA5-409A-9956-7743F77DA0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C048BEA-0CA5-409A-9956-7743F77DA0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C048BEA-0CA5-409A-9956-7743F77DA0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C048BEA-0CA5-409A-9956-7743F77DA0B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 		{E3A8ECEA-6F60-4532-987A-CD0980F106BF} = {DC6BE9D9-02B5-4DF4-85AF-8A2E3EEC7387}
 		{55A695FB-79F5-4C71-AF73-59B0DF8FFA62} = {DC6BE9D9-02B5-4DF4-85AF-8A2E3EEC7387}
 		{BD071C10-DC06-4B24-A286-5D678830438A} = {DC6BE9D9-02B5-4DF4-85AF-8A2E3EEC7387}
+		{9C048BEA-0CA5-409A-9956-7743F77DA0B2} = {DC6BE9D9-02B5-4DF4-85AF-8A2E3EEC7387}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9E4F6C9-265E-4F2E-B65B-5AD8FCB907C0}
