@@ -1,6 +1,6 @@
 "use client";
 
-import { UpdateAuctionTest } from "@/lib/actions/auctionActions";
+import { updateAuctionTest } from "@/lib/actions/auctionActions";
 import { Button } from "flowbite-react";
 import React from "react";
 
@@ -12,7 +12,7 @@ export default function AuthTest() {
     setResult(undefined);
     setLoading(true);
 
-    UpdateAuctionTest()
+    updateAuctionTest()
       .then((res) => setResult(res))
       .finally(() => setLoading(false));
   }
